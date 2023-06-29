@@ -337,16 +337,18 @@ img {
 .customer-icon-container {
   width: 168px;
   height: 88px;
-  color: #8e8f99;
+  fill: #8e8f99;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .customer-icon {
 }
 
-.customer-icon:hover {
-  stroke: #404bbf;
+.customer-icon-container:hover {
+  /*stroke: #404bbf;    */
   border-color: #404bbf;
   fill: #404bbf;
 }
