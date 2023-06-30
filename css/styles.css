@@ -383,6 +383,28 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-flex {
+  display: flex;
+  gap: 123px;
+}
+
+.social-container {
+  max-width: 208px;
+  max-height: 80px;
+}
+.social-container .social-list {
+  gap: 16px;
+}
+.social-title {
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.social-container .social-list .social-link:hover,
+.social-container .social-list .social-link:hover {
+  background-color: #31d0aa;
+}
+
 .section-button {
   padding-top: 96px;
   padding-bottom: 120px;
