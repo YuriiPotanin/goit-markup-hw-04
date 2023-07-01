@@ -368,10 +368,12 @@ img {
 .customer-icon {
 }
 
-.customer-link:hover {
+.customer-link:hover,
+.customer-link:focus {
   /*stroke: #404bbf;    */
   border-color: #404bbf;
   fill: #404bbf;
+  color: #404bbf;
 }
 
 .footer {
@@ -550,8 +552,20 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-list-item:hover .overlay {
+
+.project-list-item:hover .overlay-text {
   transform: translateY(0);
 }
 /*  Modal styles  */
