@@ -281,7 +281,7 @@ img {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-text {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .team-topic {
   font-weight: 500;
@@ -396,8 +396,12 @@ img {
 
 .footer-flex {
   display: flex;
-  gap: 120px;
+  /* gap: 120px;  */
   align-items: baseline;
+}
+
+.logo-container {
+  margin-right: 120px;
 }
 
 .social-container {
@@ -420,7 +424,7 @@ img {
 }
 
 .social-container .social-list .social-link:hover,
-.social-container .social-list .social-link:hover {
+.social-container .social-list .social-link:focus {
   background-color: #31d0aa;
 }
 
